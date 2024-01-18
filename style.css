@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  height: 50vh;
+  width: 50vh;
+}
+
+#Container .sqr {
+  flex: 1;
+  border: 1px solid blue;
+  height: 100%;
+}
